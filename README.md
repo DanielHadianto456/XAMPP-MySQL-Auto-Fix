@@ -16,5 +16,4 @@ Example directory: C:\xampp\mysql
 3. Put the fix tool within the mysql folder you had just located
 4. Make sure that you still have "data" folder within it
 5. Run the tool
-6. Select Y when the tool asks you to overwrite something
-7. Then done, you can press any key to exit the tool
+6. Then done, you can press any key to exit the tool
