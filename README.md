@@ -18,3 +18,6 @@ Example directory: C:\xampp\mysql
 5. Run the tool
 6. If there's a windows pop up telling you not to run it, choose "more info" then "run anyway"
 7. And done, your mysql service is fixed
+
+**NOTE**
+1. **IF YOUR MYSQL SERVICE STILL DOESN'T WORK AFTER USING THE FIX, TRY RUNNING IT AGAIN FOR 2 OR 3 TIMES BEFORE RE-USING THIS FIX**
