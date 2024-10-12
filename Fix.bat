@@ -23,21 +23,21 @@ ren "%CD%\data" "%newDataOldDir%"
 
 REM Step 2: Make a copy of mysql/backup folder and name it as mysql/data
 echo Copying backup to data...
-xcopy /E /I "%CD%\backup" "%CD%\data"
+xcopy /E /I /Y "%CD%\backup" "%CD%\data"
 
 REM Step 3: Copy all database folders from %newDataOldDir% to data (excluding mysql, performance_schema, and phpmyadmin folders)
 echo Copying databases from %newDataOldDir% to data (excluding mysql, performance_schema, and phpmyadmin)...
 for /d %%G in ("%CD%\%newDataOldDir%\*") do (
     if /I not "%%~nxG"=="mysql" if /I not "%%~nxG"=="performance_schema" if /I not "%%~nxG"=="phpmyadmin" (
         echo Copying folder %%~nxG...
-        xcopy /E /I "%%G" "%CD%\data\%%~nxG"
+        xcopy /E /I /Y "%%G" "%CD%\data\%%~nxG"
     )
 )
 
 REM Step 4: Copy ibdata1 file from %newDataOldDir% to data
 if exist "%CD%\%newDataOldDir%\ibdata1" (
     echo Copying ibdata1 from %newDataOldDir% to data...
-    copy "%CD%\%newDataOldDir%\ibdata1" "%CD%\data\ibdata1"
+    copy /Y "%CD%\%newDataOldDir%\ibdata1" "%CD%\data\ibdata1"
 ) else (
     echo Warning: ibdata1 file not found in %newDataOldDir%.
 )
