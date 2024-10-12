@@ -16,5 +16,5 @@ Example directory: C:\xampp\mysql
 3. Put the fix tool within the mysql folder you had just located
 4. Make sure that you still have "data" folder within it
 5. Run the tool
-6. If there's a windows pop up telling you not to run it, ignore it and choose to run it
+6. If there's a windows pop up telling you not to run it, choose "more info" then "run anyway"
 7. And done, your mysql service is fixed
