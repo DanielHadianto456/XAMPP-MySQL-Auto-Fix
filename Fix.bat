@@ -37,9 +37,5 @@ REM Step 4: Copy ibdata1 file from %newDataOldDir% to data
 echo Copying ibdata1 from %newDataOldDir% to data...
 copy "%CD%\%newDataOldDir%\ibdata1" "%CD%\data\ibdata1"
 
-REM Step 5: Attempt to start MySQL service
-echo Starting MySQL service...
-net start mysql
-
 echo All done!
 pause
