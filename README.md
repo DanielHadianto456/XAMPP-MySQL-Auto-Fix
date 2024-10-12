@@ -1,5 +1,7 @@
 "# XAMPP-MySQL-Auto-Fix" 
 
+**THIS IS STILL IN BETA, THE CODE PROVIDED HERE IS FROM CHATGPT. IF THERE ARE ANY ISSUES, REPORT IT IN THE ISSUES TAB**
+
 If you encounter an error that looks like this
 https://i.sstatic.net/j8ntw.png
 
