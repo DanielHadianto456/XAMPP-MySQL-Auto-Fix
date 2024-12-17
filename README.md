@@ -1,3 +1,6 @@
+
+## THIS TOOL IS NOW OBSELETE, USE THE ONE PROVIDED IN https://github.com/RadjaShiqnals/xampp-mysql-fix INSTEAD
+
 "# XAMPP-MySQL-Auto-Fix" 
 
 **IMPORTANT**
